@@ -1,0 +1,17 @@
+sudo apt install git
+git --version
+git config --global user.name "MdRohit786"
+git config --global user.email "middyarohit0@gmail.com"
+
+git config --list
+
+sudo apt install gh
+gh auth login
+? What account do you want to log into? GitHub.com
+? What is your preferred protocol for Git operations on this host? SSH
+? Generate a new SSH key to add to your GitHub account? Yes
+? Enter a passphrase for your new SSH key (Optional) 
+? Title for your SSH key: my ubuntu desk
+? How would you like to authenticate GitHub CLI? Login with a web browser
+! First copy your one-time code: xxxx-xxxx
+Press Enter 
